@@ -1,0 +1,167 @@
+
+body{
+    width: 100%;
+    height: fit-content;
+    background-image: url(./shara_desert.jpg);
+    
+}
+
+.container-head
+{
+    margin-top: 30px;
+    /* margin-left: 0px; */
+}
+
+.container-head-logo
+{
+    float: left;
+    margin-top: 20px;
+    margin-left: 150px;
+    /* border: 2px solid black; */
+}
+
+.container-head-right
+{
+    float: left;
+    margin-top: 40px;
+}
+
+.a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 12px;
+}
+
+.a1
+{
+    margin-left: 900px;
+}
+
+.a2
+{
+    margin-left: 80px;
+}
+
+.a3
+{
+    margin-left: 80px;
+}
+
+.a4{
+    margin-left: 50px;
+    display: inline-block;
+    margin-bottom: -20px;
+}
+
+
+
+
+.container-body-left {
+    width: 550px;
+    height: 309px;
+    clear: both;
+    float: left;
+    margin-left: 100px;
+    margin-top: 150px;
+    color: mintcream;
+    /* border: 1px solid black; */
+}
+
+.container-body-heading
+{
+    font-size: 60px;
+}
+
+.container-body-text
+{
+    line-height: 1.6;
+}
+
+#button
+{
+    width: 150px;
+    height: 40px;
+    margin-left: 0px;
+    margin-top: 40px;
+    background-color: mintcream;
+    border: none;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.container-body-right
+{
+    width: 500px;
+    height: 500px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 80px;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-row-gap: 40px;
+}
+@media screen and (min-width:300px) and (max-width:500px) {
+    .container-body-right{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+        float: left;
+    }
+    .container-body-left{
+        margin-left: 0px;
+    }
+    .container-body-heading
+    {
+        font-size: 40px;
+    }
+}
+
+
+.img-hover:hover
+{
+    transform: translateY(-10px);
+}
+
+.container-body-pic1
+{
+    background-image: url(./pic-1.png);
+    background-size: 200px 220px;
+    border-radius: 10px;
+    /* border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px; */
+    background-repeat: no-repeat;
+    
+}
+
+.container-body-pic2
+{
+    background-image: url(./pic-2.png);
+    background-size: 200px 220px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+.container-body-pic3
+{
+    background-image: url(./pic-3.png);
+    background-size: 200px 220px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+.container-body-pic4
+{
+    background-image: url(./pic-4.png);
+    background-size: 200px 220px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+.bg-img-text
+{
+    color: white;   
+    font-size: 8px; 
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
